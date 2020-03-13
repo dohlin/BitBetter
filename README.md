@@ -118,6 +118,12 @@ Additional, instead of interactive mode, you can also pass the parameters direct
 ---
 
 
+### Updating
+
+Update as usual (sudo ./bitwarden.sh updateself & sudo ./bitwarden.sh update) then follow the steps from "Building BitBetter" above.
+
+---
+
 # FAQ: Questions you might have.
 
 ## Why build a license generator for open source software?
