@@ -57,7 +57,7 @@ services:
     image: bitbetter/identity
 ```
 
-You'll also want to edit the `/path/to/bwdata/scripts/run.sh` file. In the `function restart()` block, comment out the call to `dockerComposePull`.
+You'll also want to edit the `/path/to/bwdata/scripts/run.sh` file so that calling "./bitwarden.sh restart" doesn't fail when trying to pull the local-only bitbetter/api docker image. In the `function restart()` block, comment out the call to `dockerComposePull`.
 
 > Replace `dockerComposePull`<br>with `#dockerComposePull`
 
